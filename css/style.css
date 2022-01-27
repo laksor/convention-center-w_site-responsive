@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.menu-li:hover{
+    color: brown !important;
+
+}
+.carousel-item::before{
+
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    position: absolute;
+    background: #000;
+    opacity: 0.3;
+}
+.carousel-caption{
+    height: 270px;
+}
+ @media only screen and (max-width: 767px){
+    .carousel-caption{
+        height: 285px;
+    }
+    .carousel-item img{
+         height: 390px;
+     }
+     .carousel-item h1{
+         font-size: 22px;
+     }
+ }
+ .text-after::after{
+    content: '';
+    width: 12%;
+    height: 6px;
+    background-color: #f9004d;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border: 3px solid red;
+    
+}
+#choose-plan-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: -20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.card:hover{
+    background-color: #3F87F5;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 20px;
+    transform:translateY(.5);
+    box-shadow: 0 6px 7px grey;
+
+}
+#hot{
+    margin-left: 180px;
+    padding:10px;
+    background-color: #FF4E4E;
+}
+#left-border{
+    border-left: 8px solid #3F87F5 !important;
+
+}
+
+.slider-heading::after{
+        content: '';
+        width: 12%;
+        height: 6px;
+        background-color: #f9004d;
+        margin: auto;
+        display: block;
+        margin-top: 8px;
+        border: 3px solid red;
+ }
