@@ -55,6 +55,7 @@
     margin-left: -20px;
     border-radius: 20px;
     color: white;
+    transition: all .5s ease 0s;
 }
 
 .card:hover{
@@ -64,6 +65,27 @@
     padding: 20px 20px;
     transform:translateY(.5);
     box-shadow: 0 6px 7px grey;
+    transition: all .5s ease 0s;
+
+}
+.card:hover span{
+    color: #fff!important;
+    transition: all .5s ease 0s;
+
+}
+.card:hover #choose-plan-btn{
+    background-color: transparent!important;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: -20px;
+    border-radius: 20px;
+    box-shadow: 0 6px 7px grey;
+    outline: auto;
+    transition: all .5s ease 0s;
+    transform: scale(1);
 
 }
 #hot{
