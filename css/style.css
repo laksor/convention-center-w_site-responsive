@@ -98,6 +98,8 @@
 
 }
 
+/* after */
+
 .slider-heading::after{
         content: '';
         width: 12%;
